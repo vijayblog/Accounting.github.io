@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accounting</title>
+
+	<meta charset="utf-8">
+	<meta lang="en-US">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="jquery/jquery.js"></script>
+	<script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1/jquery-ui.min.css">
+	<script src="jquery/jquery.counterup.min.js"></script>
+	<script src="jquery/jquery.waypoints.min.js"></script>
+</head>
+<body>
+
+		<!-- start nav and header coding -->
+
+			<div class="bgimg">
+				<div class="container-fluid header">
+					<div class="container-fluid header-link m-0 p-0">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="phone d-flex align-items-center justify-content-center">
+									<a href="#"><i class="fa fa-phone"></i>  +00 1234 567 </a>
+									<a href="#"> <i class="fa fa-paper-plane"></i> youremail@email.com</a>
+								</div>
+							</div>
+							<div class="col-md-5"></div>
+							<div class="col-md-3">
+								<div class="social-link d-flex align-items-center justify-content-center">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-instagram"></i></a>
+									<a href="#"><i class="fa fa-dribbble"></i></a>
+								</div>
+							</div>
+						</div>
+
+						<nav class="navbar navbar-expand-md mt-3">
+
+							<a href="#" class="navbar-brand" style="font-size: 30px; font-weight: bold;">
+								Accounting
+							</a>
+
+							<i class="fa fa-bars navbar-toggler text-secondary" data-toggle="collapse" data-target="#menu" style="cursor: pointer; font-size: 25px;" id="demo">
+								<span>MENU</span>
+							</i>
+
+							<div class="collapse navbar-collapse" id="menu">
+							<ul class="navbar-nav mx-auto" role="tablist">
+								<li class="nav-item"><a href="index.html" class="nav-link active text-success">HOME</a></li>
+								<li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+								<li class="nav-item"><a href="services.html" class="nav-link">SERVICES</a></li>
+								<li class="nav-item"><a href="case.html" class="nav-link">CASE STUDY</a></li>
+								<li class="nav-item"><a href="blog.html" class="nav-link">BLOG</a></li>
+								<li class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></li>
+							</ul>
+
+						</div>
+
+							<form class="form-inline frm"> 
+								
+								<div class="input-group">
+
+									<input type="text" placeholder="search" class="form-control border border-light">
+									<div class="input-group-append">
+										<span class="input-group-text border border-light">
+											<i class="fa fa-search"></i>
+										</span>
+									</div>
+								</div>		
+							</form>
+
+						</nav>
+						<div class="container-fluid carousel-img m-0 p-0">
+							<div class="carousel slide" data-ride="carousel" data-interval="2000" id="prew">
+
+								<ol class="carousel-indicators">
+									<li data-target="#prew" class="active" data-slide-to="0"></li>
+									<li data-target="#prew" data-slide-to="0"></li>
+									<li data-target="#prew" data-slide-to="0"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="images/bg_1.jpg" width="100%" height="550" class="sm">
+									</div>
+
+							<div class="carousel-item">
+								<img src="images/bg_2.jpg" width="100%" height="550" class="sm">
+							</div>
+
+							<div class="carousel-item">
+								<img src="images/bg_3.jpg" width="100%" height="550" class="sm">
+							</div>
+
+							<a href="#prew" class="carousel-control-prev" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon"></span>
+							</a>
+
+							<a href="#prew" class="carousel-control-next" role="button" data-slide="next">
+								<span class="carousel-control-next-icon"></span>
+							</a>
+ 
+						</div>
+					</div>
+
+					<div class="overlay">
+						<div class="container-fluid text-center">
+							<div class="row">
+								<div class="col-md-3"></div>
+								<div class="col-md-6">
+									<div class="header-text">
+										<h2>We Business Grow</h2>
+										<h1>We Help You Businesses Innovate and Grow</h1>
+										<button>CONTACT WITH US</button>
+									</div>
+								</div>
+								<div class="col-md-3"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> 
+		</div>
+	</div>
+
+		<!-- close nav and header coding -->
+
+
+		<!-- start section coding -->
+
+			<div class="container-fluid  Accounting-Agency">
+				<div class="container bg-light">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="accounting"></div>
+						</div>
+						<div class="col-md-6">
+							<div class="accting-main-box">
+								<div class="accting-upper-text">
+									<h2>WELCOME TO ACCOUNTING</h2>
+									<h1>We Are the Best Accounting Agency</h1>
+								</div>
+								<div class="accting-below-text">
+									<div class="d-flex">
+										<div class="accting-icon">
+										<i class="fa fa-podcast"></i>
+									</div>
+									<div class="accting-text">
+										<h3>Market Analysis</h3>
+										<p>
+											Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+										</p>
+									</div>
+									</div>
+
+									<div class="d-flex">
+										<div class="accting-icon">
+										<i class="fa fa-pie-chart"></i>
+									</div>
+									<div class="accting-text">
+										<h3>Accounting Advisor</h3>
+										<p>
+											Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+										</p>
+									</div>
+									</div>
+
+									<div class="d-flex">
+										<div class="accting-icon">
+										<i class="fa fa-wheelchair-alt"></i>
+									</div>
+									<div class="accting-text">
+										<h3>General Consultancy</h3>
+										<p>
+											Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+										</p>
+									</div>
+									</div>
+
+									<div class="d-flex">
+										<div class="accting-icon">
+										<i class="fa fa-life-saver"></i>
+									</div>
+									<div class="accting-text">
+										<h3>Structured Assestment</h3>
+										<p>
+											Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+										</p>
+									</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div> 
+				</div>
+			</div>
+
+
+<div class="container-fluid accountin-tax">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="accting-tax-box">
+					<h3>Accounting</h3>
+					<p>
+						Even the all-powerful Pointing has no control about
+ 						the blind texts it is an almost unorthographic.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="accting-tax-box">
+					<h3>Tax, Compliance & Payroll</h3>
+					<p>
+						Even the all-powerful Pointing has no control about
+ 						the blind texts it is an almost unorthographic.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="accting-tax-box">
+					<h3>Financial Services</h3>
+					<p>
+						Even the all-powerful Pointing has no control about
+ 						the blind texts it is an almost unorthographic.
+					</p>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="accting-tax-box">
+					<h3>Growth & Funding Access</h3>
+					<p>
+						Even the all-powerful Pointing has no control about
+ 						the blind texts it is an almost unorthographic.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid counting">
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="counting-text">
+					<h2 class="counter">50</h2>
+					<h3>YEARS OF EXPERIENCED</h3>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="counting-text">
+					<h2 class="counter">8,500</h2>
+					<h3>CASES COMPLETED</h3>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="counting-text">
+					<h2 class="counter">20</h2>
+					<h3>AWARDS WON</h3>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="counting-text">
+					<h2 class="counter">50</h2>
+					<h3>EXPERT CONSULTANT</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid client m-0 p-0">
+	<div class="client-text text-center">
+			<h3>TESTIMONIES</h3>
+			<h2>Happy Clients & Feedbacks</h2>
+	</div>
+
+	<div class="container client-carousel">
+		<div class="carousel slide" data-ride="carousel" data-interval="2000" id="slider">
+			<ol class="carousel-indicators mt-5">
+				<li class="active" data-slide-to="0" data-target="#slider"></li>
+				<li data-slide-to="0" data-target="#slider"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="client-main-box">
+								<div class="client-quote">
+									<i class="fa fa-quote-left"></i>
+								</div>
+								<div class="client-upper-text">
+									<p>
+										Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+									</p>
+								</div>
+								<div class="client-below-text d-flex">
+									<div class="client-img"></div>
+									<div class="client-imgtext">
+										<h3>Roger Scott</h3>
+										<p>Marketing Manager</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="client-main-box1">
+								<div class="client-quote1">
+									<i class="fa fa-quote-left"></i>
+								</div>
+								<div class="client-upper-text1">
+									<p>
+										Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+									</p>
+								</div>
+								<div class="client-below-text1 d-flex">
+									<div class="client-img1"></div>
+									<div class="client-imgtext1">
+										<h3>Roger Scott</h3>
+										<p>Marketing Manager</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="client-main-box1">
+								<div class="client-quote1">
+									<i class="fa fa-quote-left"></i>
+								</div>
+								<div class="client-upper-text1">
+									<p>
+										Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+									</p>
+								</div>
+								<div class="client-below-text1 d-flex">
+									<div class="client-img1"></div>
+									<div class="client-imgtext1">
+										<h3>Roger Scott</h3>
+										<p>Marketing Manager</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="client-main-box">
+								<div class="client-quote">
+									<i class="fa fa-quote-left"></i>
+								</div>
+								<div class="client-upper-text">
+									<p>
+										Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+									</p>
+								</div>
+								<div class="client-below-text d-flex">
+									<div class="client-img"></div>
+									<div class="client-imgtext">
+										<h3>Roger Scott</h3>
+										<p>Marketing Manager</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="client-main-box1">
+								<div class="client-quote1">
+									<i class="fa fa-quote-left"></i>
+								</div>
+								<div class="client-upper-text1">
+									<p>
+										Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+									</p>
+								</div>
+								<div class="client-below-text1 d-flex">
+									<div class="client-img1"></div>
+									<div class="client-imgtext1">
+										<h3>Roger Scott</h3>
+										<p>Marketing Manager</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="client-main-box1">
+								<div class="client-quote1">
+									<i class="fa fa-quote-left"></i>
+								</div>
+								<div class="client-upper-text1">
+									<p>
+										Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+									</p>
+								</div>
+								<div class="client-below-text1 d-flex">
+									<div class="client-img1"></div>
+									<div class="client-imgtext1">
+										<h3>Roger Scott</h3>
+										<p>Marketing Manager</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid frequently">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="freq-img-box">
+					<div class="freqimg">
+						<div class="freq-img1"></div>
+					</div>
+					<div class="freq-img2"></div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="accordian-box">
+					<div class="uper-content">
+						<h4>FAQS</h4>
+						<h3>Frequently Asks Questions</h3>
+						<span>
+							Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,there live the blind texts.
+						</span>
+					</div>
+					<div class="below-content">
+							<div class="drop d-flex" id="drop1" style="background-color: green">
+								<div class="how-text">
+									<h3 id="how" style="color:white;">How TO Fixed A Problem ?</h3>
+								</div>
+								
+								<div class="angle-icon">
+									<i class="fa fa-angle-down" id="angle" style="color:white;"></i>
+								</div>
+							</div>
+
+							<div id="drop-down">
+								<p>1. Far far away, behind the word mountains</p>
+								<p>2. Consonantia, there live the blind texts</p>
+								<p>3. When she reached the first hills of the Italic Mountains</p>
+								<p>4. Bookmarksgrove, the headline of Alphabet Village</p>
+								<p>5. Separated they live in Bookmarksgrove right</p>
+							</div>
+
+							
+							<div class="drop1 d-flex" id="drop2">
+							<div class="how-text1">
+								<h3 id="how1">How To Manage Your Business Loans?</h3>
+							</div>
+							
+							<div class="angle-icon1">
+								<i class="fa fa-angle-up" id="angle1"></i>
+							</div>
+						</div>
+
+						<div id="drop-down1">
+							<p>1. Far far away, behind the word mountains</p>
+							<p>2. Consonantia, there live the blind texts</p>
+							<p>3. When she reached the first hills of the Italic Mountains</p>
+							<p>4. Bookmarksgrove, the headline of Alphabet Village</p>
+							<p>5. Separated they live in Bookmarksgrove right</p>
+						</div>
+
+						<div class="drop d-flex" id="drop3">
+							<div class="how-text2">
+								<h3 id="how2">How To Grow Your Investments Funds?</h3>
+							</div>
+							
+							<div class="angle-icon2">
+								<i class="fa fa-angle-up" id="angle2"></i>
+							</div>
+						</div>
+
+						<div id="drop-down2">
+							<p>1. Far far away, behind the word mountains</p>
+							<p>2. Consonantia, there live the blind texts</p>
+							<p>3. When she reached the first hills of the Italic Mountains</p>
+							<p>4. Bookmarksgrove, the headline of Alphabet Village</p>
+							<p>5. Separated they live in Bookmarksgrove right</p>
+						</div>
+
+						<div class="drop d-flex" id="drop4">
+							<div class="how-text3">
+								<h3 id="how3">What Are Those Requirements For Businesses?</h3>
+							</div>
+							
+							<div class="angle-icon3">
+								<i class="fa fa-angle-up" id="angle3"></i>
+							</div>
+						</div>
+
+						<div id="drop-down3">
+							<p>1. Far far away, behind the word mountains</p>
+							<p>2. Consonantia, there live the blind texts</p>
+							<p>3. When she reached the first hills of the Italic Mountains</p>
+							<p>4. Bookmarksgrove, the headline of Alphabet Village</p>
+							<p>5. Separated they live in Bookmarksgrove right</p>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid blog">
+	<h3>NEW & BLOG</h3>
+	<h2>Latest news from our blog</h2>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="blog-box">
+					<div class="blog-img"></div>
+					<div class="blog-content">
+						<span>MARCH 31, 2020 ADMIN</span>
+						<span class="ml-2"><i class="fa fa-comment"> 3</i></span><br><br>
+						<span><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="blog-box">
+					<div class="blog-img1"></div>
+					<div class="blog-content">
+						<span>MARCH 31, 2020 ADMIN</span>
+						<span class="ml-2"><i class="fa fa-comment"> 3</i></span><br><br>
+						<span><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></span>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="blog-box">
+					<div class="blog-img2"></div>
+					<div class="blog-content">
+						<span>MARCH 31, 2020 ADMIN</span>
+						<span class="ml-2"><i class="fa fa-comment"> 3</i></span><br><br>
+						<span><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid subscribe">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="sub-content">
+					<h3>Sign Up for Your Free 1st Accounting Consultation</h3>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="d-flex">
+					<div class="inpt-content">
+						<input type="text" placeholder="Enter email address">
+					</div>
+					<div class="sub-link"><p>Subcribe</p></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid package">
+	<h3>PRICE & PLANS</h3>
+	<h2>Affordable Packages</h2>
+
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="package-box">
+					<h3>PERSONAL</h3>
+					<span class="price"><sup>$</sup></span> 
+					<span class="number">49</span>
+					<span><sub>/mos</sub></span>
+					<ul class="list">
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Brand Strategy</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Online Marketing</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Branding Services</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Creative Marketing</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Sales Management</span></li>
+					</ul>
+
+					<button>GET STARTED</button>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="package-box">
+					<h3>BUSINESS</h3>
+					<span class="price"><sup>$</sup></span> 
+					<span class="number">79</span>
+					<span><sub>/mos</sub></span>
+					<ul class="list">
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Brand Strategy</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Online Marketing</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Branding Services</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Creative Marketing</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Sales Management</span></li>
+					</ul>
+
+					<button>GET STARTED</button>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="package-box">
+					<h3>ULTIMATE</h3>
+					<span class="price"><sup>$</sup></span> 
+					<span class="number">109</span>
+					<span><sub>/mos</sub></span>
+					<ul class="list">
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Brand Strategy</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Online Marketing</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Branding Services</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Creative Marketing</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Sales Management</span></li>
+					</ul>
+
+					<button>GET STARTED</button>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="package-box">
+					<h3>PREMIUM</h3>
+					<span class="price"><sup>$</sup></span> 
+					<span class="number">149</span>
+					<span><sub>/mos</sub></span>
+					<ul class="list">
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Brand Strategy</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Online Marketing</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Branding Services</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Creative Marketing</span></li>
+						<li><span class="fa fa-check text-primary"></span> <span class="mr-4">Sales Management</span></li>
+					</ul>
+
+					<button>GET STARTED</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- close section coding -->
+
+<!-- start footer coding -->
+		
+		<div class="container-fluid footer">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="footer-content1">
+						<h3>ABOUT US</h3>
+						<p>A small river named Duden flows by their 
+							place and supplies it with the necessary regelialia.
+						</p>
+						
+						<div class="d-flex">
+							<div class="so-link"><i class="fa fa-twitter" title="twitter"></i></div>
+							<div class="so-link ml-3"><i class="fa fa-facebook" title="facebook"></i></div>
+							<div class="so-link ml-3"><i class="fa fa-instagram" title="instagram"></i></div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-2 text-left">
+					<div class="footer-content2">
+						<h3>SERVICES</h3>
+
+							<p>Market Analysis</p>
+							<p>Accounting Advisor</p>
+							<p>General Consultancy</p>
+							<p>Structured</p> 
+							<p>Assestment</p>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="footer-content3">
+						<h3>DISCOVER</h3>
+							<p>About us</p>
+							<p>Contract us</p>
+							<p>Terms & Conditions</p>
+							<p>Policies</p>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="footer-content4">
+						<h3>RESOURCES</h3>
+							<p>Security</p>
+							<p>Global</p>
+							<p>Charts</p>
+							<p>Privacy</p>
+					</div>
+				</div>
+				<div class="col-md-3 m-0 p-0">
+					<div class="footer-content5">
+						<h3>FREE CONSULTATION</h3>
+						<input type="text" placeholder="Your Name">
+						<input type="text" placeholder="Your Email">
+						<input type="text" placeholder="Subject">
+						<textarea placeholder="Message"></textarea>
+						<button>Send A Message</button>
+					</div>
+				</div>
+			</div> 
+			<div class="colorlib">
+				<span>Copyright ©2020 All rights reserved | This template is made with</span>
+				 <span class="fa fa-heart">  by </span>
+				  <span class="text-success" style="cursor:pointer;">Colorlib.com</span>
+			</div>
+		</div>
+
+<!-- close footer coding -->
+
+		<script>
+			
+			$(document).ready(function(){
+
+				$("#demo").click(function(){
+
+					$(".Accounting-Agency").css({
+
+						"margin-top" : "240px",
+					});
+				});
+			});
+
+			jQuery(document).ready(function() {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 2000
+            });
+        });
+
+
+			var x = document.getElementById("drop1");
+			var y = document.getElementById("drop-down");
+			var how = document.getElementById("how");
+			var angle = document.getElementById("angle");
+
+			x.onclick = function(){
+
+				if (y.style.height == "0px") {
+
+					y.style.height = "200px";
+					y.style.transition = "0.5s";
+					x.style.backgroundColor= "green";
+					how.style.color = "white";
+					angle.style.color = "white";
+				}
+
+				else{
+
+					y.style.height ="0px";
+					y.style.transition = "0.5s";
+					x.style.backgroundColor= "";
+					how.style.color = "black";
+					angle.style.color = "black";
+				}
+			}
+
+
+			var a = document.getElementById("drop2");
+			var b = document.getElementById("drop-down1");
+			var how1 = document.getElementById("how1");
+			var angle1 = document.getElementById("angle1");
+
+			a.onclick = function(){
+
+				if (b.style.height == "0px") {
+
+					b.style.height = "200px";
+					b.style.transition = "0.5s";
+					a.style.backgroundColor= "green";
+					how1.style.color = "white";
+					angle1.style.color = "white";
+				}
+
+				else{
+
+					b.style.height ="0px";
+					b.style.transition = "0.5s";
+					a.style.backgroundColor= "";
+					how1.style.color = "black";
+					angle1.style.color = "black";
+				}
+			}
+
+
+			var c = document.getElementById("drop3");
+			var d = document.getElementById("drop-down2");
+			var how2 = document.getElementById("how2");
+			var angle2 = document.getElementById("angle2");
+
+
+				c.onclick = function(){
+
+				if (d.style.height == "0px") {
+
+					d.style.height = "200px";
+					d.style.transition = "0.5s";
+					c.style.backgroundColor= "green";
+					how2.style.color = "white";
+					angle2.style.color = "white";
+				}
+
+				else{
+
+					d.style.height ="0px";
+					d.style.transition = "0.5s";
+					c.style.backgroundColor= "";
+					how2.style.color = "black";
+					angle2.style.color = "black";
+				}
+			}
+
+
+			var e = document.getElementById("drop4");
+			var f = document.getElementById("drop-down3");
+			var how3 = document.getElementById("how3");
+			var angle3 = document.getElementById("angle3");
+
+
+				e.onclick = function(){
+
+				if (f.style.height == "0px") {
+
+					f.style.height = "200px";
+					f.style.transition = "0.5s";
+					e.style.backgroundColor= "green";
+					how3.style.color = "white";
+					angle3.style.color = "white";
+				}
+
+				else{
+
+					f.style.height ="0px";
+					f.style.transition = "0.5s";
+					e.style.backgroundColor= "";
+					how3.style.color = "black";
+					angle3.style.color = "black";
+				}
+			}
+
+			
+		</script>
+</body>
+</html>
